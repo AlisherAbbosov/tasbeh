@@ -31,7 +31,7 @@ const CounterBtn = () => {
         variant="contained"
         onClick={() => {
           setNumber(number + 1);
-          if (number === 5) {
+          if (number === 33) {
             if (selects === "hamd") {
               setHamd(hamd + 1);
 
